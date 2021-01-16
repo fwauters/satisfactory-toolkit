@@ -1,0 +1,20 @@
+<mat-card *ngFor="let miner of miners" class="building-card">
+  <mat-card-header>
+    <img class="building-image" src="../../../assets/img/buildings/{{miner.alias}}.png">
+    <mat-card-title>{{ miner.name }}</mat-card-title>
+    <mat-card-subtitle>{{ miner.category }}</mat-card-subtitle>
+  </mat-card-header>
+  <hr>
+  <mat-card-content class="building-content">
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum facilis maxime neque, 
+      mollitia voluptas sapiente excepturi eaque repudiandae, labore quibusdam pariatur quis 
+      qui molestiae ut reprehenderit commodi dolores sunt nihil.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button class="building-btn" (click)="test()">ADD</button>
+    <button mat-raised-button class="building-btn" (click)="test()">SEE MORE</button>
+  </mat-card-actions>
+</mat-card>
+

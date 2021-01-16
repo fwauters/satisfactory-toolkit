@@ -1,12 +1,14 @@
+@import '../../models/colors.scss';
+
 header {
   width: 100vw;
   height: 10vh;
-  background-color: green;
+  background-color: $orange;
   display: flex;
   justify-content: center;
   align-items: center;
 
   h1 {
-    color: white;
+    color: $grey;
   }
 }

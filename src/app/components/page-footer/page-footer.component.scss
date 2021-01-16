@@ -1,7 +1,9 @@
+@import '../../models/colors.scss';
+
 footer {
   width: 100vw;
   height: 10vh;
-  background-color: yellow;
+  background-color: $orange;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -10,7 +12,7 @@ footer {
     margin: 10px;
 
     i {
-      color: green;
+      color: $grey;
     }
   }
 }
