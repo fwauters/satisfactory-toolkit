@@ -1,0 +1,11 @@
+@import '../../models/colors.scss';
+
+.add-sim {
+  width: 100%;
+  height: 100px;
+  background-color: $white;
+
+  p {
+    color: black;
+  }
+}

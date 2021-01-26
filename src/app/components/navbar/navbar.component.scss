@@ -1,0 +1,11 @@
+@import '../../models/colors.scss';
+
+.navbar {
+  margin-left: 25px;
+  transform: scale(1.5);
+  color: $grey;
+}
+
+.test {
+  background-color: $orange;
+}
